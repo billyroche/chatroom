@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		<link rel="stylesheet" href="styleformessageus.css">
+		<link rel="javascript" href="thing.js">
+	</head>
+	<body>
+		<div class="navbar">
+			<nav>
+				<ul>
+					<li><a href="index.html">Home</a></li>
+				</ul>
+			</nav>
+		</div>
+	</body>
+	<section>
+		<div class="container">
+			<form action="https://formspree.io/f/mleonkaq" method="POST" id="my-form">
+
+			<div class="form-group">
+				<label for="firstName"> First Name</label>
+				<input type="text" id="firstName" name="firstName">
+			</div>
+
+			<div class="form-group">
+				<label for="latsName">Last Name</label>
+				<input type="text" id="lastName" name="lastName">
+			</div>
+
+			<div class="form-group">
+				<label for="email">Email</label>
+				<input type="email" id="email" name="email">
+			</div>
+
+			<div class="form-group">
+				<label for="massage">Massage</label>
+				<textarea name="massage" id="massage" cols="30" rows="10"></textarea>
+			</div>
+
+			<button type="submit">Submit</button>
+			</form>
+		</div>
+		<div id="status"></div>
+	</section>
+</html>
